@@ -235,33 +235,6 @@ $._farbtastic = function (container, callback) {
     var b = Math.round(rgb[2] * 255);
     return '#' + (r < 16 ? '0' : '') + r.toString(16) +
            (g < 16 ? '0' : '') + g.toString(16) +
-  /**
-   * TouchConvert: Converts touch co-ordinates to mouse co-ordinates
-   */
-  fb.touchconvert = function (e) {
-    var e = e.originalEvent.touches.item(0);
-    return e;
-  }
-
-  /**
-   * Touchmove handler for iPad, iPhone etc
-   */
-  fb.touchmove = function (e) {
-    fb.mousemove( fb.touchconvert(e)  );
-    event.preventDefault();
-    return false;
-  }
-
-  /**
-   * Touchend handler for iPad, iPhone etc
-   */
-  fb.touchend = function (event) {
-    $(document).unbind('touchmove', fb.touchmove);
-    $(document).unbind('touchend', fb.touchend);
-    document.dragging = false;
-    event.preventDefault();
-    return false;
-  }
            (b < 16 ? '0' : '') + b.toString(16);
   };
 
