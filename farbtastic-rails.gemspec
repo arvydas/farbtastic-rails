@@ -2,8 +2,8 @@
 require File.expand_path("../lib/farbtastic-rails/version", __FILE__)
 
 Gem::Specification.new do |gem|
-  gem.authors       = ["Phil Cohen"]
-  gem.email         = ["github@phlippers.net"]
+  gem.authors       = ["Phil Cohen", "Arvydas Juskevicius"]
+  gem.email         = ["github@phlippers.net", "arvydas@agileinnovative.co.uk"]
   gem.description   = %q{Farbtastic jQuery Color Picker, colorfully bundled for Rails 3+.}
   gem.summary       = %q{Farbtastic jQuery Color Picker, colorfully bundled for Rails 3+.}
   gem.homepage      = ""
