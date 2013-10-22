@@ -22,7 +22,7 @@ To enable:
 
 ### Installation
 
-* Add "gem 'farbtastic-rails', :git => 'git://github.com/arvydas/farbtastic-rails.git'" to your Gemfile
+* Add `gem 'farbtastic-rails', :git => 'git://github.com/arvydas/farbtastic-rails.git'` to your Gemfile
 * Run `bundle install`
 
 Enjoy!
@@ -34,7 +34,7 @@ This gem adds a single generator to Rails 3, `farbtastic:install`. Running the g
 
 ### Installation
 
-* Add "gem 'farbtastic-rails', :git => 'git://github.com/arvydas/farbtastic-rails.git'" to your Gemfile
+* Add `gem 'farbtastic-rails', :git => 'git://github.com/arvydas/farbtastic-rails.git'` to your Gemfile
 * Run `bundle install`
 * Invoke the generator: `rails generate farbtastic:install`
 * Add the following to your layout or view files:
