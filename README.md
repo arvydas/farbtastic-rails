@@ -1,12 +1,12 @@
 # farbtastic-rails
 
-[Farbtastic](http://acko.net/blog/farbtastic-jquery-color-picker-plug-in/) v[1.3u](https://github.com/mattfarina/farbtastic/tree/farbtastic-1), colorfully bundled for Rails 3+.
+[Farbtastic](http://acko.net/blog/farbtastic-jquery-color-picker-plug-in/) v[1.3u](https://github.com/mattfarina/farbtastic/tree/farbtastic-1), colorfully bundled for Rails 3+ and improved to support tablet/phone touch notifications.
 
 ## Rails 3.1+
 
 For Rails 3.1 and greater, the files will be added to the asset pipeline and available for you to use.
 
-To enable: 
+To enable:
 
 * Add the following line to the file `app/assets/javascripts/application.js` (or other [sprockets](https://github.com/sstephenson/sprockets) manifest):
 
@@ -22,8 +22,8 @@ To enable:
 
 ### Installation
 
-* Add `farbtastic-rails` to your Gemfile
-* Run `bundle`
+* Add "gem 'farbtastic-rails', :git => 'git://github.com/arvydas/farbtastic-rails.git'" to your Gemfile
+* Run `bundle install`
 
 Enjoy!
 
@@ -34,8 +34,8 @@ This gem adds a single generator to Rails 3, `farbtastic:install`. Running the g
 
 ### Installation
 
-* Add `farbtastic-rails` to your Gemfile
-* Run `bundle`
+* Add "gem 'farbtastic-rails', :git => 'git://github.com/arvydas/farbtastic-rails.git'" to your Gemfile
+* Run `bundle install`
 * Invoke the generator: `rails generate farbtastic:install`
 * Add the following to your layout or view files:
 
@@ -61,8 +61,8 @@ You're done!
 **farbtastic-rails**
 
 * Freely distributable and licensed under the [MIT license](http://phlipper.mit-license.org/license.html).
-* Copyright (c) 2012 Phil Cohen (github@phlippers.net) [![endorse](http://api.coderwall.com/phlipper/endorsecount.png)](http://coderwall.com/phlipper)
-* http://phlippers.net/
+* Copyright (c) 2012 Phil Cohen (github@phlippers.net) [![endorse](http://api.coderwall.com/phlipper/endorsecount.png)](http://coderwall.com/phlipper) http://phlippers.net/
+* Support for phone/tablet touch notifications added by Arvydas Juskevicius [@arvydev](http://twitter.com/arvydev) http://www.arvydas.co.uk
 
 
 **Farbtastic**
